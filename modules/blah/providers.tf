@@ -1,8 +1,8 @@
 terraform {
   required_providers {
-    minio = {
-      source  = "aminueza/minio"
-      version = "~> 1.2.0"
+    azurerm = {
+      source  = "hashicorp/azurerm"
+      version = "2.53.0"
     }
   }
 }

@@ -1,5 +1,4 @@
-resource "minio_s3_object" "blah_object" {
-  bucket_name = "1"
-  object_name = "2"
-  content     = "3"
+resource "azurerm_resource_group" "example" {
+  name     = "example-resources"
+  location = "West Europe"
 }
